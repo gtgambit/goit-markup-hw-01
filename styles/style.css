@@ -1,0 +1,244 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #212121;
+  background-color: #ffff;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header {
+}
+.header__logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+.header__logo > span {
+  color: #2196f3;
+}
+
+.header__nav {
+}
+.header__nav:hover {
+  color: #2196f3;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__item {
+}
+.header__link {
+}
+.header__contact {
+}
+.mail {
+}
+.phone {
+}
+
+.main {
+  align-items: center;
+  margin: 0px 14px;
+  width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #2f303a;
+}
+.main__text {
+  padding: 220px 452px 280px 452px;
+}
+.main__title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  vertical-align: top;
+  letter-spacing: 6%;
+}
+.main__btn {
+}
+
+.button {
+  position: absolute;
+  width: 230px;
+  height: 50px;
+  margin-left: 699px;
+  top: 430px;
+  background-color: #2196f3;
+  color: #fff;
+  border-radius: 4px;
+}
+.button:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.description {
+}
+.decription__description {
+  padding: 100px 0px 100px 0px;
+
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.dectiption__item {
+}
+.decription__item-title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.decription__item-text {
+  padding: 20px 30px 0px 0px;
+  color: #757575;
+}
+.wedo {
+}
+.wedo__title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+.wedo__image {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.team__team {
+  margin-top: 30px;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+}
+
+.team > h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3%;
+}
+.team__team-item {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.team__team-item > .h3 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.team__team-work {
+  text-align: center;
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 50px;
+}
+.footer__footer {
+  max-width: 100%;
+  justify-content: center;
+  background-color: #2f303a;
+}
+.logo {
+  margin: ;
+  color: #fff;
+}
+.logo > span {
+  color: #2196f3;
+}
+
+.footer__footer > ul > li {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer__footer > ul > li:first-child {
+  color: #fff;
+}
